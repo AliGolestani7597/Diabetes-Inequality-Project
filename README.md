@@ -15,10 +15,8 @@ subject to the data custodian's conditions.
 - `01_SII_RII_functions.R`: modified SII and RII functions used in this study.
 - `02_clean_data_DM_HTN.R`: harmonisation and derivation of analysis variables.
 - `03_DM_analysis.R`: primary diabetes analysis and result tables.
-- `04_HTN_analysis.R`: companion hypertension analysis and result tables.
 - `run_analysis.R`: convenience script that runs the files in the correct order.
-- `data/synthetic/`: a 10,000-row synthetic dataset for demonstrating the code.
-- `generate_synthetic_data.py`: reproducible synthetic-data generator.
+- `data/synthetic/`: a 10,000-row synthetic dataset for demonstrating the code (will be added after publication of the srudy).
 
 The functions and analytical model code are retained from the original research
 workflow. Publishing changes are limited to documentation, execution order, and
