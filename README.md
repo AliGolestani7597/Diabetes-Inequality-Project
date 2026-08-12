@@ -2,8 +2,7 @@
 
 This repository contains the R code used to prepare two rounds of WHO STEPS
 survey data and analyse socioeconomic inequalities in the diabetes care
-cascade. Diabetes mellitus (DM) is the primary article analysis. The closely
-related hypertension (HTN) workflow is included as a companion analysis.
+cascade. Diabetes mellitus (DM) is the primary article analysis. 
 
 The repository contains code only. Individual-level survey data are not
 included and must not be committed to GitHub. Access to the source datasets is
@@ -16,7 +15,7 @@ subject to the data custodian's conditions.
 - `02_clean_data_DM_HTN.R`: harmonisation and derivation of analysis variables.
 - `03_DM_analysis.R`: primary diabetes analysis and result tables.
 - `run_analysis.R`: convenience script that runs the files in the correct order.
-- `data/synthetic/`: a 10,000-row synthetic dataset for demonstrating the code (will be added after publication of the srudy).
+- `data/synthetic/`: a 10,000-row synthetic dataset for demonstrating the code 
 
 The functions and analytical model code are retained from the original research
 workflow. Publishing changes are limited to documentation, execution order, and
@@ -95,7 +94,13 @@ by Git.
 
 ## Citation and licence
 
-When the article citation is final, add it here and create a `CITATION.cff` file.
-Before making the repository public, select a software licence that is compatible
-with your institution's policy and any code on which the modified SII/RII
-functions are based.
+If you use this repository, please cite the published article:
+
+Younesian, S., Mousavi, S.M., Baygi, V., et al. Socioeconomic inequalities in diabetes care cascade in Iran: STEPS 2016 and 2021. *Scientific Reports* 16, 26768 (2026). https://doi.org/10.1038/s41598-026-62354-0
+
+
+### Licence
+
+The code in this repository is released under the MIT Licence, unless otherwise stated.
+
+The synthetic dataset is provided for demonstration and educational use only. It does not contain real participant-level STEPS data and should not be used for epidemiological estimation or policy inference.
